@@ -1,0 +1,35 @@
+.foculty {
+  width: 95%;
+  margin: 64px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.foculty .cards {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.cards .card {
+  width: 200px;
+  box-shadow: 0px 0px 4px 0px grey;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.foculty .create_btn {
+  padding: 10px;
+}
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+}
+.customModal {
+  background: #b2dbbf;
+  min-width: 80%;
+  height: 90vh;
+}
